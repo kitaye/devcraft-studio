@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevCraft Studio – Разработка под ключ</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- Подключаем шрифт Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>DevCraft Studio</h1>
+      <p>Создаём цифровые продукты для вашего бизнеса</p>
+      <a href="#contact" class="btn">Оставить заявку</a>
+    </div>
+  </header>
+
+  <section class="services">
+    <div class="container">
+      <h2>Наши услуги</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Веб-разработка</h3>
+          <p>Сайты, интернет-магазины, CRM-системы</p>
+        </div>
+        <div class="service-card">
+          <h3>Мобильные приложения</h3>
+          <p>iOS и Android с нативным качеством</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Связаться с нами</h2>
+      <form action="/contact" method="POST">
+        <input type="text" name="name" placeholder="Ваше имя" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <button type="submit" class="btn">Отправить</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
